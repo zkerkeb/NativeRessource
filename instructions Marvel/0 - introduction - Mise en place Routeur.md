@@ -21,7 +21,7 @@ Nous utiliserons ```React Navigation``` ([voir doc](https://reactnavigation.org/
 
 Les liens de votre routeur devront être « / » pour la page ```login``` et « /characters » pour la page ```characters```
 
-#VOUS TRAVAILLEREZ AVEC STYLED-COMPONENTS POUR CET EXERCICE.
+# VOUS TRAVAILLEREZ AVEC STYLED-COMPONENTS POUR CET EXERCICE.
 
 
 ## Objectif de l'exercice
