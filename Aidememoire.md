@@ -24,6 +24,7 @@
 
 
 ---
+
 ## Lancer la console de dev sur le simulateur
 
 ### Android
@@ -36,6 +37,19 @@
 
 > Cliquez ensuite sur Debug et une page internet s'ouvrira, cliquez sur inspectez puis sur console pour voir vos log.
 ---
+## installer un paquet
+
+avec npm :
+
+```npm install [Nom du paquet] --save```
+
+>Le --save permet d'ajouter le paquet à votre package.json, et donc de pouvoir le reinstaller si vous git cloner votre app sur une autre machine. 
+
+avec yarn :
+
+```yarn add [Nom du paquet]```
+
+---
 ## FAQ
 
 ### Mon application ne reconnais pas le paquet NPM que je viens d'installer 
@@ -46,7 +60,7 @@
 
 > --reset-cache permet de nettoyer le cache du bundle et donc d'éviter d'avoir une version obsolète de votre app.
 
-### Nettoyer l'application android
+### Nettoyer le bundle de l'application android
 
 > Faire la commande suivante
 
@@ -54,5 +68,38 @@
 
 > Revenir ensuite dans le dossier de votre app et relancez l'application, redémarrez également le bundler
 
+### Faire un nettoyage complet de ses application React Native [MACOS]
 
+Executez les commandes suivantes dans l'ordre:
 
+1.```watchman watch-del-all```
+
+2.```rm -rf yarn.lock package-lock.json node_modules```
+
+3.```rm -rf android/app/build```
+
+4.```rm ios/Pods ios/Podfile.lock``` 
+
+5.```rm -rf ~/Library/Developer/Xcode/DerivedData```
+
+6.```npm install && cd ios && pod update && cd ..```
+
+7.```npm start --reset-cache```
+
+Relancer ensuite l'application
+
+### Faire un nettoyage complet de son application React Native [Android]
+
+Executez les commandes suivantes dans l'ordre:
+
+1.```watchman watch-del-all```
+
+2.```rm -rf yarn.lock package-lock.json node_modules```
+
+3.```rm -rf android/app/build```
+
+4.```npm install```
+
+5.```npm start --reset-cache```
+
+Relancer ensuite l'application
