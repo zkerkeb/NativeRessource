@@ -9,7 +9,7 @@ Cet exercice a pour but de vous faire voir les notions suivantes:
 
 1. Créer un formulaire controlé (les champs sont relié a la state)
 2. Validateur de formulaires (Vérifier les données entré dans le formulaire)
-3. Créer une application multi-pages avec React-Router
+3. Créer une application multi-pages avec React Navigation
 4. Créer un système de Routes protégés (partie accessible uniquement aux personnes connecté)
 5. Récupérer les paramètres d’une routes (permet de faire un appel API avec l’id d’un personnage par exemple)
 6. Consommé une API, garder certaines informations disponible en hors ligne.
@@ -20,6 +20,9 @@ Nous avons travaillé jusqu’a présent sur une single page App, notre app ne g
 Nous utiliserons ```React Navigation``` ([voir doc](https://reactnavigation.org/)) pour cela, avant de commencer l’exercice, créer un routeur avec deux pages,  une page ```login``` et une page ```characters```. Vous afficherez ce que vous voudrez sur ces pages dans un premier temps, Créer un bouton qui vous envoie de la page ```login``` a la page `characters` et vice versa
 
 Les liens de votre routeur devront être « / » pour la page ```login``` et « /characters » pour la page ```characters```
+
+#VOUS TRAVAILLEREZ AVEC STYLED-COMPONENTS POUR CET EXERCICE.
+
 
 ## Objectif de l'exercice
 * Installer React Navigation
