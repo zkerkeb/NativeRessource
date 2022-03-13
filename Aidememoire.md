@@ -10,7 +10,6 @@
 
 ### IOS
 
-### Android
 
 ```npx react-native run-ios```
 
