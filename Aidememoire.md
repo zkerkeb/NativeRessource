@@ -77,7 +77,7 @@ Executez les commandes suivantes dans l'ordre:
 
 3.```rm -rf android/app/build```
 
-4.```rm ios/Pods ios/Podfile.lock``` 
+4.```rm -rf ios/Pods ios/Podfile.lock``` 
 
 5.```rm -rf ~/Library/Developer/Xcode/DerivedData```
 
