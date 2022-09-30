@@ -58,7 +58,8 @@ avec yarn :
 `npx react-native start --reset-cache`
 
 > --reset-cache permet de nettoyer le cache du bundle et donc d'éviter d'avoir une version obsolète de votre app.
-
+---
+---
 ### Nettoyer le bundle de l'application android
 
 > Faire la commande suivante
@@ -66,6 +67,8 @@ avec yarn :
 ```cd android && ./gradlew clean```
 
 > Revenir ensuite dans le dossier de votre app et relancez l'application, redémarrez également le bundler
+---
+---
 
 ### Faire un nettoyage complet de ses application React Native [MACOS]
 
@@ -87,7 +90,10 @@ Executez les commandes suivantes dans l'ordre:
 
 Relancer ensuite l'application
 
-### Faire un nettoyage complet de son application React Native [Android]
+---
+---
+
+### Faire un nettoyage complet de son application React Native [Windows]
 
 Executez les commandes suivantes dans l'ordre:
 

@@ -21,7 +21,7 @@ Nous utiliserons ```React Navigation``` ([voir doc](https://reactnavigation.org/
 
 Les liens de votre routeur devront être « / » pour la page ```login``` et « /characters » pour la page ```characters```
 
-# VOUS TRAVAILLEREZ AVEC STYLED-COMPONENTS POUR CET EXERCICE.
+# VOUS TRAVAILLEREZ AVEC STYLED-COMPONENTS DANS L'APPLICATION MARVEL.
 
 
 ## Objectif de l'exercice
@@ -31,7 +31,7 @@ Les liens de votre routeur devront être « / » pour la page ```login``` et «�
 
 ## Quelles ressources utilisé ?
 * Pour le multi-page, le ```Stack Navigator``` de React Navigation
-* Pour la navigation entre plusieurs solutions sont dans la [doc](https://reactnavigation.org/)
+* Pour la navigation entre pages, plusieurs solutions sont dans la [doc](https://reactnavigation.org/)
 
 
 

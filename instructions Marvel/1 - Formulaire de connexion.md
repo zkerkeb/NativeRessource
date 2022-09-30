@@ -3,7 +3,7 @@
 
 La première étape consiste a créer une page de connexion, dans lequel on aura un formulaire qui permettra aux utilisateur de se connecter.
 
-Vous devrez créer plusieurs composants pour cette page, un composant `logo`, qui affichera le logo Marvel, un composant `loginForm` (Que vous pouvez découper en plusieurs composant), qui gérera le formulaire de connexion.
+Vous devrez créer plusieurs composants pour cette page, un composant `logo`, qui affichera le logo Marvel, un composant `loginForm` (Que vous pouvez découperez en plusieurs composant), qui gérera le formulaire de connexion.
 
 Le formulaire doit être un formulaire controlé, c’est a dire que les elements du formulaire (un champ `username` et `password`) doivent être géré par la state du composant (Comme sur la TodoList).
 
@@ -15,7 +15,7 @@ https://easy-login-api.herokuapp.com/users/login
 
 Il s’agit d’une requête ```POST``` qui nécessite un champ ```username``` et un champ ```password```
 
-Pas besoin de créer un utilisateur cette API renvoi un token de connection lorsque les deux champs ci dessus sont envoyés.
+Pas besoin de créer un utilisateur, cette API renvoi un token de connection lorsque les deux champs ci dessus sont envoyés.
 
 Il faudra ensuite stocker le token dans le localStorage, puis redirigé l’utilisateur vers la page characters.
 
