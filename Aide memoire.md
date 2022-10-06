@@ -1,6 +1,6 @@
 # Aide Mémoire Réact Native 
 
-## Lancer son projet
+## Lancer son projet.
 ---
 
 
@@ -14,17 +14,17 @@
 ```npx react-native run-ios```
 
 
-### Lancer le bundler
+### Lancer le bundler.
 
 
 ```npx react-native start```
 
-> Attention: les commandes au dessus lancent le bundler automatiquement normalement, si ce n'est pas le cas lancer le avant de faire les commande au dessus.
+> Attention: les commandes au-dessus lancent le bundler automatiquement normalement. Si ce n'est pas le cas, lancez-le avant de faire les commandes au-dessus.
 
 
 ---
 
-## Lancer la console de dev sur le simulateur
+## Lancer la console de dev sur le simulateur.
 
 ### Android
 
@@ -34,15 +34,15 @@
 
 ```Ctrl + d```
 
-> Cliquez ensuite sur Debug et une page internet s'ouvrira, cliquez sur inspectez puis sur console pour voir vos log.
+> Cliquez ensuite sur « Debug » et une page internet s'ouvrira. Cliquez sur « inspectez » puis sur « console » pour voir vos log.
 ---
-## installer un paquet
+## Installer un paquet.
 
 avec npm :
 
 ```npm install [Nom du paquet] --save```
 
->Le --save permet d'ajouter le paquet à votre package.json, et donc de pouvoir le reinstaller si vous git cloner votre app sur une autre machine. 
+>Le --save permet d'ajouter le paquet à votre package.json, et donc de pouvoir le réinstaller si vous git cloner votre app sur une autre machine. 
 
 avec yarn :
 
@@ -51,28 +51,28 @@ avec yarn :
 ---
 ## FAQ
 
-### Mon application ne reconnais pas le paquet NPM que je viens d'installer 
+### Mon application ne reconnait pas le paquet NPM que je viens d'installer.
 
-> Couper le bundler (Le terminal avec le carré bleu), et le relancer avec la commande suivante:
+> Coupez le bundler (le terminal avec le carré bleu), et le relancer avec la commande suivante:
 
 `npx react-native start --reset-cache`
 
 > --reset-cache permet de nettoyer le cache du bundle et donc d'éviter d'avoir une version obsolète de votre app.
 ---
 ---
-### Nettoyer le bundle de l'application android
+### Nettoyer le bundle de l'application android.
 
-> Faire la commande suivante
+> Faire la commande suivante:
 
 ```cd android && ./gradlew clean```
 
-> Revenir ensuite dans le dossier de votre app et relancez l'application, redémarrez également le bundler
+> Revenir ensuite dans le dossier de votre app et relancez l'application. Redémarrez également le bundler.
 ---
 ---
 
-### Faire un nettoyage complet de ses application React Native [MACOS]
+### Faire un nettoyage complet de ses applications React Native [MACOS].
 
-Executez les commandes suivantes dans l'ordre:
+Exécutez les commandes suivantes dans l'ordre:
 
 1.```watchman watch-del-all```
 
@@ -88,14 +88,14 @@ Executez les commandes suivantes dans l'ordre:
 
 7.```npm start --reset-cache```
 
-Relancer ensuite l'application
+Relancez ensuite l'application.
 
 ---
 ---
 
-### Faire un nettoyage complet de son application React Native [Windows]
+### Faire un nettoyage complet de son application React Native [Windows].
 
-Executez les commandes suivantes dans l'ordre:
+Exécutez les commandes suivantes dans l'ordre:
 
 1.```watchman watch-del-all```
 
@@ -107,4 +107,4 @@ Executez les commandes suivantes dans l'ordre:
 
 5.```npm start --reset-cache```
 
-Relancer ensuite l'application
+Relancez ensuite l'application.
