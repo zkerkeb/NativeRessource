@@ -1,14 +1,16 @@
  ## IV ) Routes protégées 
  
- Vous devrez faire en sorte que les utilisateurs sans token de connexion soit redirigé vers l'ecran login, Et que les utilisateurs ayant un token ne puissent pas aller sur l'ecran Login, qu'il soient redirigé vers l'ecran characters.
+ Vous devrez faire en sorte que les utilisateurs sans token de connexion soit redirigés vers l'ecran login et que les utilisateurs ayant un token ne puissent pas aller sur l'ecran Login (qu'ils soient redirigés vers l'écran characters).
 
 ## Objectif de l'exercice
-* Sécurisez son application
+* Sécuriser son application.
 
-## Quelles ressources utilisé ?
+## Quelles ressources utiliser ?
 * Voir [Authentication flows](https://reactnavigation.org/docs/auth-flow) sur React Navigation
 
 
 ## BONUS
 
-Verifier si le token est valide en envoyant une requête a l'API suivante (methode ```GET```) https://easy-login-api.herokuapp.com/protected pour verification, si le token est incorrect, supprimer le token de l'application et rediriger l'utilisateur vers la page `login`.
+Vérifier si le token est valide en envoyant une requête à l'API suivante (methode ```GET```):
+https://easy-login-api.herokuapp.com/protected
+Pour vérification, si le token est incorrect, supprimez le token de l'application et redirigez l'utilisateur vers la page `login`.
