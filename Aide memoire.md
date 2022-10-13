@@ -99,9 +99,9 @@ Exécutez les commandes suivantes dans l'ordre:
 
 1.```watchman watch-del-all```
 
-2.```rm -rf yarn.lock package-lock.json node_modules```
+2.```rm -r yarn.lock package-lock.json node_modules```
 
-3.```rm -rf android/app/build```
+3.```rm -r android/app/build```
 
 4.```npm install```
 
