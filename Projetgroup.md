@@ -23,19 +23,20 @@ Votre projet devra suivre les règles suivantes:
 - Splash screen (faire sur les 2 - mettre de l'icône de l'app dessus)
 - icône de l'app (rien de bien fou)
 - système multilingue (changer de langue dans l'app | menu) - voir i18n et react-i18n
+- Faire des animations
+- partager un truc dans votre app (react-native-share)
+- ajouter de la publicité
+- utiliser des API du téléphone (Géolocalisation/ Microphone/ Appareil Photo etc...)
 
-Premier point le 8 avril. Rendu final le 14 avril.
+
+Premier point le 17 novembre. Rendu final le 27 a minuit.
 
 -----
 ### Bonus.
 
 - détecter le thème du téléphone et afficher automatiquement le thème sombre ou clair selon le tel de l'utilisateur
-- utiliser des API du téléphone (Géolocalisation/ Microphone/ Appareil Photo etc...)
 - redirigez l'utilisateur au click sur la notification | Voir universal-link
 - musique de motus (petit bouton play)
 - générer une APK - Fichier build android que je puisse installer
-- ajouter de la publicité
-- faire des animations
-- partager un truc dans votre app
 
 Pour rendre le projet: votre projet doit impérativement être sur un git public.
