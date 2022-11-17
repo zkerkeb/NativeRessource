@@ -1,6 +1,6 @@
-Création d'un site Web	
+Création d'une application React Native
 
-Ce petit projet consiste à faire un site web pour vérifier les acquis.
+Ce petit projet consiste à faire une app pour vérifier les acquis.
 
 ### Description de l'exercice.
 
